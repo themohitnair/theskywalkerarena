@@ -1,0 +1,34 @@
+---
+title: "Welcome To My Blog"
+author: "Mohit Nair"
+date: "2023-09-30"
+categories:
+---
+
+
+
+![](thumbnail.jpg)
+
+Hiya folks! This is the first post in my Quarto blog, The Skywalker Arena. Welcome! This post is a brief introduction about me. 
+
+I'm Mohit Nair, and I hail from Bangalore. I am a B. E. Student (Branch of Information Science Engineering), at M. S. Ramaiah Institute of Technology. 
+
+<h1>Hobbies and Interests</h1>
+I'm in love with and am fascinated by computers, and their capabilities. I do not have very decent coding abilities, but I try my best. My other pastimes are chess, (listening to) music, movies, loitering around in my city, and blogging (you might have already figured that out). 
+
+<h2>Movies</h2>
+I am very fond of fictional cinematic universes, such as Star Wars, the Marvel Cinematic Universe, the DC Universe, and the Spider-verse. I have also developed a likeness for the Christopher Nolan films, and have watched many of them. 
+
+<h2>Music</h2>
+As for music, I love R&B, and Pop sections for the most part. However, I have also started listening to instrumentals and soundtracks from certain movies I find amazing (Hans Zimmer's and John Williams'  works to be precise). 
+
+<h2>Chess</h2>
+Chess is an addictive hobby I have been inculcating since the 2020 pandemic. I have reached 1500 ELO on chess.com if that means anything, although I'd like to classify myself as a novice at the game because of my blunders.
+
+<h2>Aspirations</h2>
+I aspire to be proficient in Full Stack Web Development, Data Science, and Machine Learning. I also love the prospect of exploring Natural Language Processing. For now, I'm just an explorer in the above fields. 
+
+
+My intention to start this blog was to journal my most notable thoughts, experiences, opinions and questions. So, be my guest, and read through them in your leisure. Thanks for reading! 
+
+(God! this looks like a Wikipedia page)

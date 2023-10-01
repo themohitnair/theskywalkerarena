@@ -1,0 +1,23 @@
+---
+title: "About: Mohit Nair"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/the_mohitnair/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/themohitnair/
+    - icon: github
+      text: Github
+      href: https://github.com/themohitnair
+
+---
+Hi, in case you're wondering who is blurting out all this nonsense in this blog, it's me, <b>Mohit (alias <i>Skywalker</i>)</b>. I am a B. E. Student (Information Science Engineering), currently studying in M S Ramaiah Institute of Technology, Bangalore.
+
+I'm in love and am fascinated by computers, their capabilities, and have decent coding abilities. My other pastimes are chess, (listening to) music, loitering around in my city and blogging (you might have already figured that out). I am very fond of fictional cinematic universes, such as Star Wars, the Marvel Cinematic Universe, the DC Universe, the Spider-verse, and the list goes on...
+
+I aspire to be proficient in Full Stack Web Development, Data Science and Machine Learning. I also love the prospect of exploring Natural Language Processing. For now, I'm just an explorer in the above fields.
+

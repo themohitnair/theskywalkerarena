@@ -1,0 +1,14 @@
+---
+title: "The Skywalker Arena - into the mind of an impulsive teenager"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+

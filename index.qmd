@@ -1,5 +1,5 @@
 ---
-title: "The Skywalker Arena - into the mind of an impulsive teenager"
+title: "leisure journal of an impulsive teenager"
 listing:
   contents: posts
   sort: "date desc"

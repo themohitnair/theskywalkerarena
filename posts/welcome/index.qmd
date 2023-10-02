@@ -9,7 +9,7 @@ categories:
 
 ![](thumbnail.jpg)
 
-Hiya folks! This is the first post in my Quarto blog, The Skywalker Arena. Welcome! This post is a brief introduction about me. 
+Hiya folks! This is the first post in my blog, The Skywalker Arena. Welcome! This post is a brief introduction about me. 
 
 I'm Mohit Nair, and I hail from Bangalore. I am a B. E. Student (Branch of Information Science Engineering), at M. S. Ramaiah Institute of Technology. 
 

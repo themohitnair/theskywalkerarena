@@ -3,7 +3,10 @@ project:
   output-dir: docs
 
 website:
+  open-graph: true
+  google-analytics: "G-1TGJ9J5HQ0"
   title: "The Skywalker Arena"
+  favicon: icon.png
   navbar:
     right:
       - about.qmd

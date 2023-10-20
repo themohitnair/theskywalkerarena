@@ -16,7 +16,7 @@ A BMTC Bus Pass is something every student in Bengaluru should make, if they hap
 Here are the steps for creating a bus pass:
 
 
-<b>Step 1: Enter <a href = "http://student.mybmtc.com:8280/bmtc/login/secure#">this</a> website.</b>
+<b>Step 1: Enter <a href = "http://student.mybmtc.com:8280/bmtc/login/secure#" target = "_blank">this</a> website.</b>
 
 Click on the highlighted option
 ![](1.jpg)

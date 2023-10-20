@@ -1,0 +1,49 @@
+---
+title: "Welcome To My Blog"
+author: "Mohit Nair"
+date: "2023-10-20"
+categories:
+- Resources
+---
+
+
+
+![](thumbnail.jpg)
+
+<h3>A BMTC Bus Pass Guide - for the Students of MSRIT, Bengaluru<h3>
+
+A BMTC Bus Pass is something every student in Bengaluru should make, if they happen to commute to their institution using the BMTC Bus Services. It saves a lot of money (upto 10 times lesser than the money spend on everyday to and fro tickets), and also rids you of the hassle of always handling  and exchanging cash, with change and a thin little shit of a ticket. 
+Here are the steps for creating a bus pass:
+
+
+<b>Step 1: Enter <a href = "http://student.mybmtc.com:8280/bmtc/login/secure#">this</a> website.</b>
+
+Click on the highlighted option
+![](1.jpg)
+
+<b>Step 2: Fill the application form up</b>
+![](2.jpg)
+You will be redirected to a window containing a form as shown in the above picture.
+
+All particulars asked in the form must be entered. There are a few which are important.
+
+![](3.jpg)
+Admission number - Enter your Receipt Number (from your Admission Fees Receipt - issued by the college at the time of admission), or your temporary USN.
+
+![](4.jpg)
+Institution Type - Use the drop down menu to enter ‘Technical’
+
+![](5.jpg)
+Institution Name - Enter ‘MS Ramaiah Institute of Technology’
+Travel Route Details - Enter these routes carefully. Please take care of the directions you take during your commute.
+Document Details - Upload your passport size photo and college-issued Fee Receipt as asked.
+Verify via OTP and submit the form. You will receive a message on the registered phone number, containing your application number for the BMTC Bus Pass.
+
+<b>Step 3: Go to your office of your respective department, and request the administrator there to verify your application, after providing them with your particulars.</b>
+The application will be approved by them, and will then make its way to BMTC, where it will again be verified (if the BMTC Verification doesn’t happen within 2-3 days, fill up the application again and resubmit it).
+
+<b>Step 4: Visit the nearest Bangalore One Government office, and...</b> 
+Provide them with your BMTC Bus Pass Application number. 
+Be sure to keep with you your fees receipt, your Aadhar Card and money up to INR 2000-2300 with adequate change. UPI payments are usually NOT 
+
+

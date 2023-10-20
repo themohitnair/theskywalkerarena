@@ -1,5 +1,5 @@
 ---
-title: "Welcome To My Blog"
+title: "Skywalker's BMTC Bus Pass Guide - For MSRIT Noobs"
 author: "Mohit Nair"
 date: "2023-10-20"
 categories:
@@ -19,21 +19,27 @@ Here are the steps for creating a bus pass:
 <b>Step 1: Enter <a href = "http://student.mybmtc.com:8280/bmtc/login/secure#" target = "_blank">this</a> website.</b>
 
 Click on the highlighted option
+
 ![](1.jpg)
 
 <b>Step 2: Fill the application form up</b>
+
 ![](2.jpg)
+
 You will be redirected to a window containing a form as shown in the above picture.
 
 All particulars asked in the form must be entered. There are a few which are important.
 
 ![](3.jpg)
+
 Admission number - Enter your Receipt Number (from your Admission Fees Receipt - issued by the college at the time of admission), or your temporary USN.
 
 ![](4.jpg)
+
 Institution Type - Use the drop down menu to enter ‘Technical’
 
 ![](5.jpg)
+
 Institution Name - Enter ‘MS Ramaiah Institute of Technology’
 Travel Route Details - Enter these routes carefully. Please take care of the directions you take during your commute.
 Document Details - Upload your passport size photo and college-issued Fee Receipt as asked.

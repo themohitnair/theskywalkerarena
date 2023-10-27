@@ -1,0 +1,31 @@
+---
+title: "Crafting Stellar Blogs: A Quarto and GitHub Pages Guide by Oppenheimer and Skywalker"
+author: 
+    - "Mohit Nair"
+    - "Suchit G"
+date: "2023-10-26"
+categories:
+- Resources
+---
+
+<h2>A Quarto and GitHub Pages Guide for the noob bloggers</h2>
+
+![](thumbnail.jpg)
+
+
+<h3>Git and Github</h3>
+To get started with Git and GitHub, the following resources are recommended:
+<ol>
+<li><a href = "https://www.theodinproject.com/lessons/foundations-introduction-to-git">The Odin Project - Introduction to Git</a></li>
+<li><a href = "https://www.theodinproject.com/lessons/foundations-git-basics">The Odin Project - Foundations in Git</a></li>
+<li><a href = "https://www.theodinproject.com/lessons/foundations-commit-messages">The Odin Project - Commit messages</a></li>
+</ol>
+
+
+<h3>Quarto</h3>
+To get started with Quarto, the following link is recommended: <a href = "https://quarto.org/docs/get-started/">Getting Started with Quarto</a>.
+Moreover, the documentation in Quarto is fairly simple and easy to understand. So please use the documentation when you face any kind of problem.
+Refer to this link to completely learn how authoring in Quarto works: <a href = "https://quarto.org/docs/get-started/authoring/vscode.html">Authoring in Quarto</a>. For a complete view of their documentation, please visit: <a href = "https://quarto.org/docs/guide/">Quarto Documentation</a>
+
+
+

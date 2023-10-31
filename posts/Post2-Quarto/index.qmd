@@ -52,7 +52,21 @@ Open your public key (id_rsa.pub) from the directory you saved it in and copy th
 
 <li><b>Step 4: </b>Connecting your Git to your GitHub using SSH
 Click on your profile on the top right corner of your GitHub home page.
+
+
+
+
+
+
 ![](2.png)
+
+
+
+
+
+
+
+
 Go to settings > SSH and GPG keys.
 Click on 'New SSH key' and paste the copied content into the large text box. Name your key.
 

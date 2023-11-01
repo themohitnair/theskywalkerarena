@@ -123,19 +123,29 @@ Please go through the [documentation](https://quarto.org/docs/guide/) for more s
 
 After editing your blog, go to the directory of the blog using cd command in your system terminal or the vscode terminal (here, the directory named 'theskywalkerarena' is the directory of the blog, and 'Skywalker' is the parent directory of the blog directory)
 
-[]!(7.png)
+![](7.png)
 
 (Each line beside '>' is a command given via terminal in the above picture)
 
 After pushing your changes, go to GitHub and to your remote blog repository, and click 'Settings' on the upper bar.
 
-[]!(8.jpg)
+![](8.jpg)
 
 Click 'Pages' on the side menu.
 
-[]!(9.png)
+![](9.png)
 
-Under 'Build and Deployment' click on the Drop down menu of the directory your blog is being deployed from, and select /docs instead of /(root).
+Under 'Build and Deployment' click on the Drop down menu of the directory your blog is being deployed from, and select /docs instead of /(root), and click on 'Save'.
+
+![](10.png)
+
+After following the above steps, go to 'Actions' on the upper bar of your repository.
+
+![](11.png)
+
+Here you can see the real-time deployment of your blog online. The URL of your blog is as follows: ```[Your GitHub username].github.io/[Your blog directory]```
+
+
 
 
 

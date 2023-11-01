@@ -129,7 +129,7 @@ After editing your blog, go to the directory of the blog using cd command in you
 
 After pushing your changes, go to GitHub and to your remote blog repository, and click 'Settings' on the upper bar.
 
-![](8.jpg)
+![](8.png)
 
 Click 'Pages' on the side menu.
 
@@ -141,7 +141,7 @@ Under 'Build and Deployment' click on the Drop down menu of the directory your b
 
 After following the above steps, go to 'Actions' on the upper bar of your repository.
 
-![](11.png)
+![Realtime Deployment of your Blog in GitHub Pages](11.png)
 
 Here you can see the real-time deployment of your blog online. The URL of your blog is as follows: ```[Your GitHub username].github.io/[Your blog directory]```
 

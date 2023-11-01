@@ -131,6 +131,15 @@ After pushing your changes, go to GitHub and to your remote blog repository, and
 
 ![](8.png)
 
+Now, enter your directory to make two important changes:
+<li>Add a line to your '_quarto.yml' file</li>
+
+![](13.png)
+
+<li>Add an empty .nojekyll file to your directory</li>
+
+![](14.png)
+
 Click 'Pages' on the side menu.
 
 ![](9.png)

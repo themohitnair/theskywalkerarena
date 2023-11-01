@@ -23,6 +23,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -194,33 +228,75 @@ To configure ssh (Secure Shell, a newly adopted path for authentication by Githu
 <li>
 <b>Step 2: </b>Configure your Git
 </li>
-<pre><code>git config --global user.name (Your Name)
-git config --global user.email (you@example.com)</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="op">&lt;</span>YourName<span class="op">&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="op">&lt;</span>you@example.com<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><img src="1.png" class="img-fluid"></p>
 <p>Click on the green Code button, select SSH if not already selected, and copy the address displayed there.</p>
 <p>Run the command:</p>
-<pre><code>git clone (Paste what you copied)</code></pre>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone <span class="op">&lt;</span>Paste what you copied<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Getting a warning with: “The authenticity of host ‘github.com’ can’t be established.” should not worry you. If this is the first time you connect to this server, you will get this warning. Select “yes” and it won’t bother you again.</p>
 <li>
-<p><b>Step 3: </b>Generating an SSH key We will be using a tool called ssh-keygen. So open a terminal and run this command:</p>
-<pre><code>ssh-keygen</code></pre>
+<b>Step 3: </b>
+</li>
+<p>Generating an SSH key We will be using a tool called ssh-keygen. So open a terminal and run this command:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>First, you will be asked about the location where the keys should be stored. By default, your user folder will contain a folder called .ssh. Leave it as it is and hit the Enter key. Next, you will be asked to set a password to protect your private key. Without a password, anyone obtaining your private key can impersonate you. You now have two files called id_rsa and id_rsa.pub which are your private and public keys respectively (for encryption). Open your public key (id_rsa.pub) from the directory you saved it in and copy the entire content of the files.</p>
-</li><li>
-<p><b>Step 4: </b>Connecting your Git to your GitHub using SSH Click on your profile on the top right corner of your GitHub home page.</p>
+<li>
+<b>Step 4: </b>
+</li>
+<p>Connecting your Git to your GitHub using SSH Click on your profile on the top right corner of your GitHub home page.</p>
 <p><img src="2.png" class="img-fluid"></p>
 <p>Go to settings &gt; SSH and GPG keys. Click on ‘New SSH key’ and paste the copied content into the large text box. Name your key.</p>
-</li><li>
+<li>
 <b>Step 5: </b>
 </li>
 <p>Clone your GitHub repository using the command used previously Step 6 — Cloning a GitHub repository (again)</p>
 <p>Now it is time to rerun the clone command, and it should work.</p>
 <p>Now Git is integrated with any tools or code editors that you may be using. You can push and pull changes from GitHub without issues.</p>
-<pre><code>git clone (SSH link copied from code of your GitHub repo as done in Step 2)</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone <span class="op">&lt;</span>SSH link copied from code of your GitHub repo as done in Step <span class="dv">2</span><span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>This should work as intended.</p>
 <h3 class="anchored">
 Quarto
 </h3>
 <p>To get started with Quarto, the following link is recommended: <a href="https://quarto.org/docs/get-started/">Getting Started with Quarto</a>. Moreover, the documentation in Quarto is fairly simple and easy to understand. So please use the documentation when you face any kind of problem. Refer to this link to completely learn how authoring in Quarto works: <a href="https://quarto.org/docs/get-started/authoring/vscode.html">Authoring in Quarto</a>. For a complete view of their documentation, please visit: <a href="https://quarto.org/docs/guide/">Quarto Documentation</a></p>
+<h3 class="anchored">
+Setting up a Blog in Quarto
+</h3>
+This guide uses VSCode for setting up and authoring blogs using Quarto. You can use <a href="https://quarto.org/docs/get-started/">other</a> editors/tools to author as well.
+<li>
+<b>Step 1: </b>
+</li>
+<p>Create a new repository in your GitHub and give it a name that’s short and simple because that will later be included in the URL of your blog if you choose to publish it on GitHub.</p>
+<li>
+<b>Step 2: </b>
+</li>
+<p>In your terminal, navigate to the folder you want to your blog to be in. Run</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone <span class="op">&lt;</span>ssh URL of your repo<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>to clone the newly created repository on to your computer.</p>
+<li>
+<b>Step 3: </b>
+</li>
+<p>In VSCode, install the “Quarto” extension. Then, open the new repository’s folder. Press <code>ctrl + shift + p</code> to open the command palette and search for “Quarto: Create Project”.</p>
+<p><img src="3.png" class="img-fluid"></p>
+<p>Choose “Blog Project” among the options.</p>
+<p><img src="4.png" class="img-fluid"></p>
+<p>And select the folder of your repository when asked for location of the project. You now have a bare-bones blog up and running! Type <code>quarto preview</code> in the terminal (make sure you are inside the repo) to see how your blog looks!</p>
+<li>
+<b>Step 4: </b>
+</li>
+<p>To create a new post, first create a new directory (folder) inside the <code>posts</code> directory. Then, create a new file named <code>index.qmd</code>. You should write your post in this file in the markdown format. Refer <a href="https://quarto.org/docs/websites/website-blog.html">here</a> to know more.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="6.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Example structure of a blog</figcaption>
+</figure>
+</div>
+<li>
+<b>Bonus: </b>
+</li>
+<p>You can add both dark and light themes to your blog by editing your <code>_quarto.yml</code> file like so:</p>
+<p><img src="5.png" class="img-fluid"></p>
+<p>Please go through the <a href="https://quarto.org/docs/guide/">documentation</a> for more such tricks and customizations.</p>
 
 
 

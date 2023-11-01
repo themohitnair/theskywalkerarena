@@ -24,25 +24,25 @@ To get started with Git and GitHub, the following resources are recommended:
 To configure ssh (Secure Shell, a newly adopted path for authentication by Github and Git) follow the following steps.
 <li><b>Step 1: </b>Make sure Git is installed into your system (along with Git bash if you are on Windows)</li>
 <li><b>Step 2: </b>Configure your Git</li>
-```
-git config --global user.name (Your Name)
-git config --global user.email (you@example.com)
+```bash
+git config --global user.name <YourName>
+git config --global user.email <you@example.com>
 ```
 ![](1.png)
 
 Click on the green Code button, select SSH if not already selected, and copy the address displayed there.
 
 Run the command: 
-```
-git clone (Paste what you copied)
+```bash
+git clone <Paste what you copied>
 ```
 Getting a warning with: “The authenticity of host ‘github.com’ can’t be established.” should not worry you. If this is the first time you connect to this server, you will get this warning. Select “yes” and it won’t bother you again.
 
 
 
-<li><b>Step 3: </b>Generating an SSH key
+<li><b>Step 3: </b></li>Generating an SSH key
 We will be using a tool called ssh-keygen. So open a terminal and run this command:
-```
+```bash
 ssh-keygen
 ```
 First, you will be asked about the location where the keys should be stored. By default, your user folder will contain a folder called .ssh. Leave it as it is and hit the Enter key.
@@ -50,7 +50,7 @@ Next, you will be asked to set a password to protect your private key. Without a
 You now have two files called id_rsa and id_rsa.pub which are your private and public keys respectively (for encryption).
 Open your public key (id_rsa.pub) from the directory you saved it in and copy the entire content of the files.
 
-<li><b>Step 4: </b>Connecting your Git to your GitHub using SSH
+<li><b>Step 4: </b></li>Connecting your Git to your GitHub using SSH
 Click on your profile on the top right corner of your GitHub home page.
 
 
@@ -76,8 +76,8 @@ Step 6 — Cloning a GitHub repository (again)
 Now it is time to rerun the clone command, and it should work.
 
 Now Git is integrated with any tools or code editors that you may be using. You can push and pull changes from GitHub without issues.
-```
-git clone (SSH link copied from code of your GitHub repo as done in Step 2)
+```bash
+git clone <SSH link copied from code of your GitHub repo as done in Step 2>
 ```
 This should work as intended.
 
@@ -89,5 +89,34 @@ To get started with Quarto, the following link is recommended: <a href = "https:
 Moreover, the documentation in Quarto is fairly simple and easy to understand. So please use the documentation when you face any kind of problem.
 Refer to this link to completely learn how authoring in Quarto works: <a href = "https://quarto.org/docs/get-started/authoring/vscode.html">Authoring in Quarto</a>. For a complete view of their documentation, please visit: <a href = "https://quarto.org/docs/guide/">Quarto Documentation</a>
 
+<h3>Setting up a Blog in Quarto</h3>
 
+This guide uses VSCode for setting up and authoring blogs using Quarto. You can use [other](https://quarto.org/docs/get-started/) editors/tools to author as well.
+<li><b>Step 1: </b></li> Create a new repository in your GitHub and give it a name that's short and simple because that will later be included in the URL of your blog if you choose to publish it on GitHub.
 
+<li><b>Step 2: </b></li> In your terminal, navigate to the folder you want to your blog to be in. Run
+```bash
+git clone <ssh URL of your repo>
+```
+to clone the newly created repository on to your computer.
+
+<li><b>Step 3: </b></li> In VSCode, install the "Quarto" extension. Then, open the new repository's folder. Press `ctrl + shift + p` to open the command palette and search for "Quarto: Create Project".
+
+![](3.png)
+
+Choose "Blog Project" among the options.
+
+![](4.png)
+
+And select the folder of your repository when asked for location of the project. You now have a bare-bones blog up and running! Type `quarto preview` in the terminal (make sure you are inside the repo) to see how your blog looks!
+
+<li><b>Step 4: </b></li> To create a new post, first create a new directory (folder) inside the `posts` directory. Then, create a new file named `index.qmd`. You should write your post in this file in the markdown format. Refer [here](https://quarto.org/docs/websites/website-blog.html) to know more.
+
+![Example structure of a blog](6.png)
+
+<li><b>Bonus: </b></li>
+You can add both dark and light themes to your blog by editing your `_quarto.yml` file like so:
+
+![](5.png)
+
+Please go through the [documentation](https://quarto.org/docs/guide/) for more such tricks and customizations.

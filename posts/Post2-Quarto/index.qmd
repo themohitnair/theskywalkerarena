@@ -21,6 +21,8 @@ To get started with Git and GitHub, the following resources are recommended:
 <li><a href = "https://www.theodinproject.com/lessons/foundations-commit-messages">The Odin Project - Commit messages</a></li>
 </ol>
 
+### Heading 3 Configuring Secure Shell (ssh)
+
 To configure ssh (Secure Shell, a newly adopted path for authentication by Github and Git) follow the following steps.
 <li><b>Step 1: </b>Make sure Git is installed into your system (along with Git bash if you are on Windows)</li>
 <li><b>Step 2: </b>Configure your Git</li>

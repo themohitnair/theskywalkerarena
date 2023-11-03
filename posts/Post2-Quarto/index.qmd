@@ -8,7 +8,8 @@ categories:
 - Resources
 ---
 
-##A Quarto and GitHub Pages Guide for the noob bloggers
+# A Quarto and GitHub Pages Guide for the noob bloggers
+***
 
 ![](thumbnail.jpg)
 

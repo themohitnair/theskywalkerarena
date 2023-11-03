@@ -13,7 +13,8 @@ categories:
 ![](thumbnail.jpg)
 
 This article serves as a compilation of online resources for Git, GitHub and Quarto, in order to inform readers eager to enter the world of blogging using GitHub pages. 
-### Git and Github
+
+## Git and Github
 ***
 To get started with Git and GitHub, the following resources are recommended:
 <ol>
@@ -87,7 +88,7 @@ This should work as intended.
 
 
 
-### Quarto
+## Quarto
 ***
 To get started with Quarto, the following link is recommended: <a href = "https://quarto.org/docs/get-started/">Getting Started with Quarto</a>.
 Moreover, the documentation in Quarto is fairly simple and easy to understand. So please use the documentation when you face any kind of problem.

@@ -8,12 +8,13 @@ categories:
 - Resources
 ---
 
-<h2>A Quarto and GitHub Pages Guide for the noob bloggers</h2>
+##A Quarto and GitHub Pages Guide for the noob bloggers
 
 ![](thumbnail.jpg)
 
 This article serves as a compilation of online resources for Git, GitHub and Quarto, in order to inform readers eager to enter the world of blogging using GitHub pages. 
-<h3>Git and Github</h3>
+### Git and Github
+***
 To get started with Git and GitHub, the following resources are recommended:
 <ol>
 <li><a href = "https://www.theodinproject.com/lessons/foundations-introduction-to-git">The Odin Project - Introduction to Git</a></li>
@@ -21,8 +22,8 @@ To get started with Git and GitHub, the following resources are recommended:
 <li><a href = "https://www.theodinproject.com/lessons/foundations-commit-messages">The Odin Project - Commit messages</a></li>
 </ol>
 
-### Heading 3 Configuring Secure Shell (ssh)
-
+### Configuring Secure Shell (ssh)
+***
 To configure ssh (Secure Shell, a newly adopted path for authentication by Github and Git) follow the following steps.
 <li><b>Step 1: </b>Make sure Git is installed into your system (along with Git bash if you are on Windows)</li>
 <li><b>Step 2: </b>Configure your Git</li>
@@ -86,13 +87,14 @@ This should work as intended.
 
 
 
-<h3>Quarto</h3>
+### Quarto
+***
 To get started with Quarto, the following link is recommended: <a href = "https://quarto.org/docs/get-started/">Getting Started with Quarto</a>.
 Moreover, the documentation in Quarto is fairly simple and easy to understand. So please use the documentation when you face any kind of problem.
 Refer to this link to completely learn how authoring in Quarto works: <a href = "https://quarto.org/docs/get-started/authoring/vscode.html">Authoring in Quarto</a>. For a complete view of their documentation, please visit: <a href = "https://quarto.org/docs/guide/">Quarto Documentation</a>
 
-<h3>Setting up a Blog in Quarto</h3>
-
+### Setting up a Blog in Quarto
+***
 This guide uses VSCode for setting up and authoring blogs using Quarto. You can use [other](https://quarto.org/docs/get-started/) editors/tools to author as well.
 <li><b>Step 1: </b></li> Create a new repository in your GitHub and give it a name that's short and simple because that will later be included in the URL of your blog if you choose to publish it on GitHub.
 
